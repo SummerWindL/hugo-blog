@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>技能提升 on Advance</title>
-    <link>http://localhost:1313/tags/%E6%8A%80%E8%83%BD%E6%8F%90%E5%8D%87/</link>
+    <link>https://blog.pikai.cloud/tags/%E6%8A%80%E8%83%BD%E6%8F%90%E5%8D%87/</link>
     <description>Recent content in 技能提升 on Advance</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 09 Jun 2025 18:14:03 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E6%8A%80%E8%83%BD%E6%8F%90%E5%8D%87/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.pikai.cloud/tags/%E6%8A%80%E8%83%BD%E6%8F%90%E5%8D%87/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>认知提升</title>
-      <link>http://localhost:1313/post/%E8%AE%A4%E7%9F%A5%E6%8F%90%E5%8D%87/</link>
+      <link>https://blog.pikai.cloud/post/%E8%AE%A4%E7%9F%A5%E6%8F%90%E5%8D%87/</link>
       <pubDate>Mon, 09 Jun 2025 18:14:03 +0800</pubDate>
-      <guid>http://localhost:1313/post/%E8%AE%A4%E7%9F%A5%E6%8F%90%E5%8D%87/</guid>
+      <guid>https://blog.pikai.cloud/post/%E8%AE%A4%E7%9F%A5%E6%8F%90%E5%8D%87/</guid>
       <description>&lt;p&gt;基于7年全栈Java开发经验（涵盖前端框架及多数据库），向技术型项目经理转型需要&lt;strong&gt;技术深度、管理能力、软技能&lt;/strong&gt;三者结合。以下从能力提升、书单推荐到月度计划为你系统设计，确保技术不丢的同时掌握项目管理核心：&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;一核心能力提升方向与推荐资源&#34;&gt;&lt;strong&gt;一、核心能力提升方向与推荐资源&lt;/strong&gt;&lt;/h3&gt;
