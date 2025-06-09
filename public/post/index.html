@@ -100,18 +100,23 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/categories/" title="Categories">
-                    <span>Categories</span>
+                <a href="http://localhost:1313/categories/" title="分类">
+                    <span>分类</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/tags/" title="Tags">
-                    <span>Tags</span>
+                <a href="http://localhost:1313/search/" title="搜索 (Alt &#43; /)" accesskey=/>
+                    <span>搜索</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/archives/" title="Archives">
-                    <span>Archives</span>
+                <a href="http://localhost:1313/tags/" title="标签">
+                    <span>标签</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="归档">
+                    <span>归档</span>
                 </a>
             </li>
         </ul>
@@ -121,39 +126,43 @@
 <header class="page-header"><div class="breadcrumbs"><a href="http://localhost:1313/">Home</a></div>
   <h1>
     Posts
+    <a href="/post/index.xml" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
   </h1>
 </header>
 
 <article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="http://localhost:1313/img/pikai.png" alt="This is a post image">
-</figure>
   <header class="entry-header">
-    <h2 class="entry-hint-parent">First
+    <h2 class="entry-hint-parent">认知提升
     </h2>
   </header>
   <div class="entry-content">
-    <p>This is a heading one This is a heading two this is a paragraph.
-</p>
+    <p>基于7年全栈Java开发经验（涵盖前端框架及多数据库），向技术型项目经理转型需要技术深度、管理能力、软技能三者结合。以下从能力提升、书单推荐到月度计划为你系统设计，确保技术不丢的同时掌握项目管理核心：
+一、核心能力提升方向与推荐资源 1. 技术能力深化——聚焦架构与前沿技术 分布式系统与高并发 关键点：微服务治理（Spring Cloud Alibaba）、缓存与消息队列（Redis/RabbitMQ）、分库分表策略 推荐书籍： 《微服务架构设计模式》（Chris Richardson） 《高并发系统设计40讲》（极客时间专栏） 《软件架构模式》（Mark Richards） 《领域驱动设计》（Eric Evans） 云原生与DevOps 掌握Docker/K8s部署、CI/CD流水线设计、云服务（AWS/Azure）集成 实战：用Jenkins&#43;GitLab搭建自动化部署平台 安全架构 Java安全机制（如加密算法、OAuth2.0、权限控制） 书籍：《Java安全编码标准》 2. 项目管理能力——方法论与工具 敏捷开发实践 掌握Scrum/Kanban流程，使用Jira/禅道管理需求与迭代 书籍：《Scrum精髓》（Kenneth Rubin） 风险与成本控制 学习WBS任务分解、甘特图、风险矩阵，用Microsoft Project或OmniPlan实践 技术方案评审 培养架构权衡能力：性能 vs 开发成本 vs 可维护性 3. 软技能——沟通与领导力 横向协调与冲突解决 学习非职权影响力模型，处理跨部门资源冲突 书籍：《关键对话》（Kerry Patterson） 技术演讲与文档 用Markdown编写技术方案，用PlantUML绘制架构图，提升提案说服力 二、月度提升计划表（兼顾技术与管理的渐进式转型） 月份 技术深化主题 项目管理实践 软技能训练 第1月 微服务架构实战：Spring Cloud Gateway &#43; Nacos注册中心 主导一次技术方案评审会，输出风险评估文档 每周组织技术分享会（15分钟） 第2月 性能调优：JVM参数优化、SQL慢查询分析 使用Jira管理小型需求迭代（3-5人团队） 练习非技术角色沟通（如向产品经理解释技术瓶颈） 第3月 容器化：Docker封装Java应用，K8s部署演示 制定项目WBS，估算工时与依赖关系 学习冲突解决模型（托马斯-基尔曼问卷） 第4月 安全实践：OAuth2.0集成、敏感数据加密 模拟成本超支场景，制定补救计划 撰写技术方案投标书（虚构项目） 第5-6月 综合项目：搭建高并发电商系统（含秒杀模块） 全周期管理1个小项目：需求→交付→复盘 主持复盘会议，总结技术与管理得失 ✅ 技术保持策略：每月至少投入40小时编码（如开源贡献、核心模块开发），避免技术脱节。
+...</p>
   </div>
-  <footer class="entry-footer"><span title='2025-06-09 14:23:03 +0800 CST'>June 9, 2025</span>&nbsp;·&nbsp;1 min</footer>
-  <a class="entry-link" aria-label="post link to First" href="http://localhost:1313/post/first/"></a>
+  <footer class="entry-footer"><span title='2025-06-09 18:14:03 +0800 CST'>June 9, 2025</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to 认知提升" href="http://localhost:1313/post/%E8%AE%A4%E7%9F%A5%E6%8F%90%E5%8D%87/"></a>
 </article>
 
 <article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="http://localhost:1313/img/" alt="This is a post image">
-</figure>
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Second
+    <h2 class="entry-hint-parent">Kubernetes学习指南
     </h2>
   </header>
   <div class="entry-content">
-    <p>This is a heading one This is a heading two this is a paragraph.
-</p>
+    <p>学习 Kubernetes（K8s）对新手来说可能会有些挑战，但通过分阶段、系统化的学习，小白也能逐步掌握。以下是适合初学者的学习路径和建议：
+一、先决条件 掌握基础概念： 容器技术：先学习 Docker，理解容器、镜像、Dockerfile、容器编排等概念。 Linux 基础：熟悉 Linux 命令行操作、文件系统、网络配置等。 云原生概念：了解微服务、CI/CD、DevOps 等基本理念。 推荐学习资源： Docker 官方文档：https://docs.docker.com 《Docker 入门与实践》（书籍） 在线课程（如 Udemy 或 Coursera 的 Docker 基础课）。 二、Kubernetes 核心学习路径 阶段 1：理解 Kubernetes 基础 核心概念： Pod：K8s 的最小调度单元，类比为“一个或多个容器的集合”。 Deployment：管理 Pod 的副本和更新。 Service：定义如何访问 Pod（如负载均衡）。 Namespace：资源隔离（类似虚拟分组）。 ConfigMap &amp; Secret：管理配置和敏感信息。 学习资源： Kubernetes 官方文档：https://kubernetes.io/docs（优先看 Concepts 部分） 图解教程：Kubernetes 中文指南 视频教程：B站 Kubernetes 入门系列 阶段 2：动手实践 本地环境搭建： Minikube：单节点 K8s 集群，适合本地学习。 Kind（Kubernetes in Docker）：用 Docker 容器模拟集群。 Kubeadm：用于快速搭建多节点集群（需要虚拟机或云服务器）。 基础操作： 使用 kubectl 命令（如 apply, get, describe, logs）。 编写 YAML 文件定义资源（Pod、Deployment、Service 等）。 示例项目：部署一个 Nginx 服务并暴露端口。 实验项目： 部署一个多副本的 Web 应用。 通过 Service 和 Ingress 暴露服务。 使用 ConfigMap 配置应用环境变量。 阶段 3：进阶知识 核心进阶： 持久化存储：Persistent Volume (PV) 和 Persistent Volume Claim (PVC)。 网络：Service 类型（ClusterIP、NodePort、LoadBalancer）、Ingress 控制器（如 Nginx Ingress）。 监控与日志：Prometheus &#43; Grafana 监控，EFK（Elasticsearch&#43;Fluentd&#43;Kibana）日志系统。 工具与生态： Helm：K8s 包管理工具，简化应用部署。 Operator：自动化复杂应用管理（如数据库）。 Kustomize：YAML 文件模板化管理。 安全： RBAC（基于角色的访问控制）。 Pod 安全策略（Security Context、PodSecurityPolicy）。 阶段 4：真实场景实战 云平台实践： 在 AWS EKS、Google GKE 或阿里云 ACK 上部署集群。 学习云厂商的 K8s 托管服务特性。 项目实战： 部署一个完整的微服务项目（如博客系统）。 实现 CI/CD 流水线（如 GitLab &#43; Argo CD）。 灾难恢复：备份与恢复集群状态（Velero 工具）。 三、推荐学习资源 书籍： 《Kubernetes 权威指南》（第5版） 《Kubernetes in Action》 《云原生模式》 在线课程： 极客时间《Kubernetes 入门实战课》 Udemy 课程：Kubernetes for the Absolute Beginners 社区与文档： Kubernetes 官方文档（中文版）：https://kubernetes.io/zh/docs CNCF（云原生计算基金会）社区：https://www.cncf.io GitHub 上的开源项目（如 kubernetes/examples） 工具与练习平台： Katacoda 交互式实验室：https://katacoda.com Play with Kubernetes：https://labs.play-with-k8s.com 四、学习建议 保持实践：通过动手实验巩固理论，尝试自己部署应用并排错。 参与社区：关注 Kubernetes 的 Slack 频道、Stack Overflow、GitHub 讨论区。 关注更新：K8s 版本迭代快，定期关注新特性（如 v1.28 的 Sidecar Containers）。 分阶段学习：不要急于求成，从单机集群到生产级部署逐步深入。 通过以上路径，你可以逐步从零掌握 Kubernetes。记住，遇到问题多查文档、多实践，积累经验是关键！
+...</p>
   </div>
-  <footer class="entry-footer"><span title='2025-06-09 14:23:03 +0800 CST'>June 9, 2025</span>&nbsp;·&nbsp;1 min</footer>
-  <a class="entry-link" aria-label="post link to Second" href="http://localhost:1313/post/second/"></a>
+  <footer class="entry-footer"><span title='2025-06-09 18:11:03 +0800 CST'>June 9, 2025</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to Kubernetes学习指南" href="http://localhost:1313/post/kubernetes%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/"></a>
 </article>
     </main>
     

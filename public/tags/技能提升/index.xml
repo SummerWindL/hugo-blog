@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>技能提升 on Advance</title>
+    <link>http://localhost:1313/tags/%E6%8A%80%E8%83%BD%E6%8F%90%E5%8D%87/</link>
+    <description>Recent content in 技能提升 on Advance</description>
+    <generator>Hugo -- 0.147.7</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 09 Jun 2025 18:14:03 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E6%8A%80%E8%83%BD%E6%8F%90%E5%8D%87/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>认知提升</title>
+      <link>http://localhost:1313/post/%E8%AE%A4%E7%9F%A5%E6%8F%90%E5%8D%87/</link>
+      <pubDate>Mon, 09 Jun 2025 18:14:03 +0800</pubDate>
+      <guid>http://localhost:1313/post/%E8%AE%A4%E7%9F%A5%E6%8F%90%E5%8D%87/</guid>
+      <description>&lt;p&gt;基于7年全栈Java开发经验（涵盖前端框架及多数据库），向技术型项目经理转型需要&lt;strong&gt;技术深度、管理能力、软技能&lt;/strong&gt;三者结合。以下从能力提升、书单推荐到月度计划为你系统设计，确保技术不丢的同时掌握项目管理核心：&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;一核心能力提升方向与推荐资源&#34;&gt;&lt;strong&gt;一、核心能力提升方向与推荐资源&lt;/strong&gt;&lt;/h3&gt;
+&lt;h4 id=&#34;1-技术能力深化聚焦架构与前沿技术&#34;&gt;&lt;strong&gt;1. 技术能力深化——聚焦架构与前沿技术&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;分布式系统与高并发&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;关键点：微服务治理（Spring Cloud Alibaba）、缓存与消息队列（Redis/RabbitMQ）、分库分表策略&lt;/li&gt;
+&lt;li&gt;推荐书籍：
+&lt;ul&gt;
+&lt;li&gt;《微服务架构设计模式》（Chris Richardson）&lt;/li&gt;
+&lt;li&gt;《高并发系统设计40讲》（极客时间专栏）&lt;/li&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;《软件架构模式》（Mark Richards）&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;《领域驱动设计》（Eric Evans）&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;云原生与DevOps&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;掌握Docker/K8s部署、CI/CD流水线设计、云服务（AWS/Azure）集成&lt;/li&gt;
+&lt;li&gt;实战：用Jenkins+GitLab搭建自动化部署平台&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;安全架构&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Java安全机制（如加密算法、OAuth2.0、权限控制）&lt;/li&gt;
+&lt;li&gt;书籍：《Java安全编码标准》&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;2-项目管理能力方法论与工具&#34;&gt;&lt;strong&gt;2. 项目管理能力——方法论与工具&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;敏捷开发实践&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;掌握Scrum/Kanban流程，使用Jira/禅道管理需求与迭代&lt;/li&gt;
+&lt;li&gt;书籍：《Scrum精髓》（Kenneth Rubin）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;风险与成本控制&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;学习WBS任务分解、甘特图、风险矩阵，用Microsoft Project或OmniPlan实践&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;技术方案评审&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;培养架构权衡能力：性能 vs 开发成本 vs 可维护性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;3-软技能沟通与领导力&#34;&gt;&lt;strong&gt;3. 软技能——沟通与领导力&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;横向协调与冲突解决&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;学习非职权影响力模型，处理跨部门资源冲突&lt;/li&gt;
+&lt;li&gt;书籍：《关键对话》（Kerry Patterson）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;技术演讲与文档&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;用Markdown编写技术方案，用PlantUML绘制架构图，提升提案说服力&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;二月度提升计划表兼顾技术与管理的渐进式转型&#34;&gt;&lt;strong&gt;二、月度提升计划表（兼顾技术与管理的渐进式转型）&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;strong&gt;月份&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;技术深化主题&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;项目管理实践&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;软技能训练&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;第1月&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;微服务架构实战：Spring Cloud Gateway + Nacos注册中心&lt;/td&gt;
+          &lt;td&gt;主导一次技术方案评审会，输出风险评估文档&lt;/td&gt;
+          &lt;td&gt;每周组织技术分享会（15分钟）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;第2月&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;性能调优：JVM参数优化、SQL慢查询分析&lt;/td&gt;
+          &lt;td&gt;使用Jira管理小型需求迭代（3-5人团队）&lt;/td&gt;
+          &lt;td&gt;练习非技术角色沟通（如向产品经理解释技术瓶颈）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;第3月&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;容器化：Docker封装Java应用，K8s部署演示&lt;/td&gt;
+          &lt;td&gt;制定项目WBS，估算工时与依赖关系&lt;/td&gt;
+          &lt;td&gt;学习冲突解决模型（托马斯-基尔曼问卷）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;第4月&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;安全实践：OAuth2.0集成、敏感数据加密&lt;/td&gt;
+          &lt;td&gt;模拟成本超支场景，制定补救计划&lt;/td&gt;
+          &lt;td&gt;撰写技术方案投标书（虚构项目）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;第5-6月&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;综合项目：搭建高并发电商系统（含秒杀模块）&lt;/td&gt;
+          &lt;td&gt;全周期管理1个小项目：需求→交付→复盘&lt;/td&gt;
+          &lt;td&gt;主持复盘会议，总结技术与管理得失&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;✅ &lt;strong&gt;技术保持策略&lt;/strong&gt;：每月至少投入40小时编码（如开源贡献、核心模块开发），避免技术脱节。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

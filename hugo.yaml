@@ -6,8 +6,12 @@ theme: ["PaperMod"]
 params:
   # 个人主页信息
   homeInfoParams:
-    Title: 'Hello Stranger'
-    Content: "Welcome to my blog. Here you will find a lot of cool information about  a lot of cool stuff."
+    Title: 'Hi There 😊'
+    Content: >
+      👋 欢迎来到我的个人主页!
+
+      - 在这里你可以自由探索，学习各种知识.
+
   socialIcons:
     - name: github
       url: "https://github.com/SummerWindL/hugo-blog#"
@@ -26,18 +30,30 @@ params:
 
   ShowPostNavLinks: true
 
+  ShowPageNums: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+
 menu:
   main:
     - identifier: categories
-      name: Categories
+      name: 分类
       url: /categories/
       weight: 10
-    - identifier: tags
-      name: Tags
-      url: /tags/
+    - identifier: search
+      name: 搜索
+      url: search/
       weight: 20  
+    - identifier: tags
+      name: 标签
+      url: /tags/
+      weight: 30  
     - identifier: archives
-      name: Archives
+      name: 归档
       url: /archives/
-      weight: 30   
+      weight: 40   
 
