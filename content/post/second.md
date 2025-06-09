@@ -1,9 +1,9 @@
 ---
 date: '2025-06-09T14:23:03+08:00'
 draft: false
-title: 'First'
+title: 'Second'
 cover:
-     image: img/pikai.png
+     image: img/
      alt: 'This is a post image'
      caption: 'This is the caption'
 tags: ["html","css"]

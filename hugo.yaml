@@ -2,3 +2,42 @@ baseURL: https://pikai.cloud/
 languageCode: zh-cn
 title: Advance
 theme: ["PaperMod"]
+
+params:
+  # 个人主页信息
+  homeInfoParams:
+    Title: 'Hello Stranger'
+    Content: "Welcome to my blog. Here you will find a lot of cool information about  a lot of cool stuff."
+  socialIcons:
+    - name: github
+      url: "https://github.com/SummerWindL/hugo-blog#"
+    - name: twitter 
+      url: "https://twitter.com"
+    - name: facebook
+      url: "https://facebook.com" 
+  cover:
+    linkFullImages: true
+
+  ShowBreadCrumbs: true
+
+  ShowReadingTime: true
+
+  ShowShareButtons: true
+
+  ShowPostNavLinks: true
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20  
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30   
+
