@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>网站搭建 on Advance</title>
+    <link>https://blog.pikai.cloud/tags/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/</link>
+    <description>Recent content in 网站搭建 on Advance</description>
+    <generator>Hugo -- 0.147.7</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 12 Jun 2025 15:33:03 +0800</lastBuildDate>
+    <atom:link href="https://blog.pikai.cloud/tags/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>从零开始搭建个人网站（二）</title>
+      <link>https://blog.pikai.cloud/post/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E4%BA%8C/</link>
+      <pubDate>Thu, 12 Jun 2025 15:33:03 +0800</pubDate>
+      <guid>https://blog.pikai.cloud/post/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E4%BA%8C/</guid>
+      <description>&lt;h1 id=&#34;一域名配置&#34;&gt;一、域名配置&lt;/h1&gt;
+&lt;h2 id=&#34;1https认证&#34;&gt;1、HTTPS认证&lt;/h2&gt;
+&lt;p&gt;经过第一章节学习及操作后，你已经拥有了两台有部分基础能力的轻量云服务器及一个个人域名，但是目前访问域名是不安全的，默认&lt;code&gt;HTTP&lt;/code&gt;协议访问，为了节约成本，这里介绍使用&lt;code&gt;Let&#39;s Encrypt&lt;/code&gt;免费进行认证，以下以本人自行申请的&lt;code&gt;pikai.cloud&lt;/code&gt;域名演示如何申请&lt;code&gt;HTTPS&lt;/code&gt;证书&lt;/p&gt;
+&lt;h3 id=&#34;11&#34;&gt;1.1、&lt;strong&gt;&lt;!-- raw HTML omitted --&gt;安装Certbot工具&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Certbot是Let&amp;rsquo;s Encrypt的官方客户端，支持自动化证书申请和续期。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 安装EPEL仓库（CentOS9默认可能已包含）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo dnf install epel-release -y
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 安装Certbot及Nginx插件（假设使用Nginx服务器）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo dnf install certbot python3-certbot-nginx -y
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;12申请证书&#34;&gt;1.2、&lt;!-- raw HTML omitted --&gt;申请证书&lt;!-- raw HTML omitted --&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;通过Certbot的Nginx插件自动化申请证书（需确保Nginx已配置域名解析）：&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo certbot --nginx -d pikai.cloud -d www.pikai.cloud
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;&lt;!-- raw HTML omitted --&gt;在这个过程中可能会遇到一系列的问题，如果无法自动化申请证书，请以手动DNS验证	&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>从零开始搭建个人网站（一）</title>
+      <link>https://blog.pikai.cloud/post/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E4%B8%80/</link>
+      <pubDate>Thu, 12 Jun 2025 14:37:03 +0800</pubDate>
+      <guid>https://blog.pikai.cloud/post/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E4%B8%80/</guid>
+      <description>&lt;h1 id=&#34;一前期准备&#34;&gt;一、前期准备&lt;/h1&gt;
+&lt;h2 id=&#34;1购买云服务器&#34;&gt;1、购买云服务器&lt;/h2&gt;
+&lt;p&gt;可以根据个人喜好及经济条件选择阿里、腾讯、华为、京东等服务商的云服务器&lt;/p&gt;
+&lt;h2 id=&#34;2购买域名&#34;&gt;2、购买域名&lt;/h2&gt;
+&lt;p&gt;选择对应服务商购买域名&lt;/p&gt;
+&lt;h2 id=&#34;3域名备案&#34;&gt;3、域名备案&lt;/h2&gt;
+&lt;p&gt;根据实际情况提交域名备案（未备案的域名无法在手机浏览器访问）&lt;/p&gt;
+&lt;h1 id=&#34;二开始搭建&#34;&gt;二、开始搭建&lt;/h1&gt;
+&lt;p&gt;本人以自购两台阿里云服务器、一个域名作为演示&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.aliyun.com/benefit/select/ecs?utm_content=se_1019898442&#34;&gt;云服务器最新特惠_爆款产品新老同享续费同价-阿里云&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;21-环境准备&#34;&gt;2.1 环境准备&lt;/h3&gt;
+&lt;p&gt;云服务器选择-&lt;strong&gt;轻量云服务器&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;系统镜像选择-&lt;strong&gt;CentOS9 Steam&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 安装EPEL仓库（CentOS9默认可能已包含）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo dnf install epel-release -y
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;根据自身情况安装部分软件，这里我将一台服务器作为前端服务器安装&lt;code&gt;nodejs&lt;/code&gt;、&lt;code&gt;nginx&lt;/code&gt;、&lt;code&gt;git&lt;/code&gt;、&lt;code&gt;Let&#39;s Encrypt&lt;/code&gt;等服务，将另外一台服务器作为后端服务器安装&lt;code&gt;java&lt;/code&gt;、&lt;code&gt;maven&lt;/code&gt;、&lt;code&gt;postgresql&lt;/code&gt;、&lt;code&gt;mysql&lt;/code&gt;、&lt;code&gt;git&lt;/code&gt;等服务。&lt;/p&gt;
+&lt;p&gt;前端服务器设置了域名&lt;code&gt;pikai.cloud&lt;/code&gt;，具体域名设置请到阿里云域名控制台设置
+&lt;img alt=&#34;为服务器设置域名&#34; loading=&#34;lazy&#34; src=&#34;https://blog.pikai.cloud/img/image1.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;具体这些软件的安装请自行搜索安装教程，这里不详细赘述（如需要后续进行补充）&lt;/p&gt;
+&lt;h3 id=&#34;22-补充&#34;&gt;2.2 补充&lt;/h3&gt;
+&lt;p&gt;由于本人前端项目使用&lt;code&gt;next.js&lt;/code&gt;构建，&lt;code&gt;npm install&lt;/code&gt;在云服务器上可能存在问题（服务器内存不足崩溃），故在前端云服务器上安装了&lt;code&gt;阿里云盘Linux arm&lt;/code&gt;版本，将本地电脑上的&lt;code&gt;node_modules&lt;/code&gt;打包上传到服务器上，在到服务器上进行&lt;code&gt;npm run build&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pip install --upgrade aliyunpan
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;详细参考：&lt;a href=&#34;https://github.com/tickstep/aliyunpan/tree/v0.3.7&#34;&gt;GitHub - tickstep/aliyunpan at v0.3.7&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;感谢大佬用爱发电🥰&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

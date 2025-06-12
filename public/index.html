@@ -189,6 +189,45 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">从零开始搭建个人网站（二）
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>一、域名配置 1、HTTPS认证 经过第一章节学习及操作后，你已经拥有了两台有部分基础能力的轻量云服务器及一个个人域名，但是目前访问域名是不安全的，默认HTTP协议访问，为了节约成本，这里介绍使用Let&#39;s Encrypt免费进行认证，以下以本人自行申请的pikai.cloud域名演示如何申请HTTPS证书
+1.1、安装Certbot工具 Certbot是Let’s Encrypt的官方客户端，支持自动化证书申请和续期。
+# 安装EPEL仓库（CentOS9默认可能已包含） sudo dnf install epel-release -y # 安装Certbot及Nginx插件（假设使用Nginx服务器） sudo dnf install certbot python3-certbot-nginx -y 1.2、申请证书 通过Certbot的Nginx插件自动化申请证书（需确保Nginx已配置域名解析）：
+sudo certbot --nginx -d pikai.cloud -d www.pikai.cloud 在这个过程中可能会遇到一系列的问题，如果无法自动化申请证书，请以手动DNS验证	...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-06-12 15:33:03 +0800 CST'>June 12, 2025</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to 从零开始搭建个人网站（二）" href="https://blog.pikai.cloud/post/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E4%BA%8C/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">从零开始搭建个人网站（一）
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>一、前期准备 1、购买云服务器 可以根据个人喜好及经济条件选择阿里、腾讯、华为、京东等服务商的云服务器
+2、购买域名 选择对应服务商购买域名
+3、域名备案 根据实际情况提交域名备案（未备案的域名无法在手机浏览器访问）
+二、开始搭建 本人以自购两台阿里云服务器、一个域名作为演示
+云服务器最新特惠_爆款产品新老同享续费同价-阿里云
+2.1 环境准备 云服务器选择-轻量云服务器
+系统镜像选择-CentOS9 Steam
+# 安装EPEL仓库（CentOS9默认可能已包含） sudo dnf install epel-release -y 根据自身情况安装部分软件，这里我将一台服务器作为前端服务器安装nodejs、nginx、git、Let&#39;s Encrypt等服务，将另外一台服务器作为后端服务器安装java、maven、postgresql、mysql、git等服务。
+前端服务器设置了域名pikai.cloud，具体域名设置请到阿里云域名控制台设置 具体这些软件的安装请自行搜索安装教程，这里不详细赘述（如需要后续进行补充）
+2.2 补充 由于本人前端项目使用next.js构建，npm install在云服务器上可能存在问题（服务器内存不足崩溃），故在前端云服务器上安装了阿里云盘Linux arm版本，将本地电脑上的node_modules打包上传到服务器上，在到服务器上进行npm run build
+pip install --upgrade aliyunpan 详细参考：GitHub - tickstep/aliyunpan at v0.3.7
+感谢大佬用爱发电🥰
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-06-12 14:37:03 +0800 CST'>June 12, 2025</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to 从零开始搭建个人网站（一）" href="https://blog.pikai.cloud/post/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E4%B8%80/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">认知提升
     </h2>
   </header>
